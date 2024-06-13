@@ -3,11 +3,11 @@ galaxy_info:
   author: Jim Tarpley
   namespace: trippsc2
   role_name: generate_csr
-  description: This role generates a Certificate Signing Request (CSR) for a Linux or Windows machine, if an existing certificate doesn't exist or needs renewal.
+  description: 'DEPRECATED: Use trippsc2.general.generate_csr instead.'
 
   license: MIT
 
-  min_ansible_version: '2.11'
+  min_ansible_version: '2.14'
 
   platforms:
     - name: Debian
